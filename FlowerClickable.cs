@@ -127,10 +127,6 @@ namespace PvZF_MainMenuFlowers
             button.transition = Selectable.Transition.None;
             button.targetGraphic = null;
 
-            int flowerNumber = flower.name == "Flower1" ? 1 : 
-                               flower.name == "Flower2" ? 2 : 
-                               flower.name == "Flower3" ? 3 : 0;
-
             Action callback = () =>
             {
                 MelonLogger.Msg($"{flower.name} clicked");
@@ -139,7 +135,7 @@ namespace PvZF_MainMenuFlowers
 
                 clickObject.SetActive(false);
 
-                animation.PlayFlower(flowerNumber);
+                animation.PlayFlower(flower.name);
             };
 
             button.onClick.AddListener(DelegateSupport.ConvertDelegate<UnityAction>(callback));

@@ -152,24 +152,22 @@ namespace PvZF_MainMenuFlowers
             );
         }
 
-        public void PlayFlower(int flowerNumber)
+        public void PlayFlower(string flowerName)
         {
-            if (flowerNumber < 1 || flowerNumber > 3)
-                return;
 
-            switch (flowerNumber)
+            switch (flowerName)
             {
-                case 1:
+                case "Flower1":
                     playbackFlower1 = 0f;
                     playingFlower1 = true;
                     break;
 
-                case 2:
+                case "Flower2":
                     playbackFlower2 = 0f;
                     playingFlower2 = true;
                     break;
 
-                case 3:
+                case "Flower3":
                     playbackFlower3 = 0f;
                     playingFlower3 = true;
                     break;
