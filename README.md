@@ -4,7 +4,7 @@ This Plants vs Zombies Fusion mod brings back the interactive flowers in the mai
 
 ## Preview
 
-![clicking-flowers](preview/preview.mp4)
+https://github.com/user-attachments/assets/64b51c2c-d9c5-43a5-a17d-6f0052c1b033
 
 ## Installation
 
